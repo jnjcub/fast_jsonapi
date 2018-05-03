@@ -5,7 +5,7 @@ module FastJsonapi
   module Instrumentation
     module Skylight
       module Normalizers
-        class SerializableHash < Skylight::Normalizers::Normalizer
+        class SerializableHash < ::Skylight::Normalizers::Normalizer
 
           register FastJsonapi::ObjectSerializer::SERIALIZABLE_HASH_NOTIFICATION
 
